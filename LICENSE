@@ -1,4 +1,8 @@
-                    GNU GENERAL PUBLIC LICENSE
+                import type { AppProps } from 'next/app'
+ 
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
+}    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
